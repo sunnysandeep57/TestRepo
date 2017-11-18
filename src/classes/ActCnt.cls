@@ -14,6 +14,7 @@ return cnt;
         List<sObject> mList = new List<sObject>();
         for(integer i =1;i<2;i++){
             Account act= new Account();
+			//Account initialized           
             act.Name = 'SASFAcc5'+i+k;
             insert act;
             //mList.add(act);
