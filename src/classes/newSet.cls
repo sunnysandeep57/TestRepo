@@ -10,7 +10,7 @@ public class newSet {
         system.debug('size of the set is : '+setAdd.size());
         for(integer k =1;k<size;k++){
             setAdd.add(+name+k);
-            system.debug('Element inserted : '+k);
+            system.debug('Element inserted is: '+k);
         }
         system.debug('Values in the set are : '+setAdd);
         system.debug('size of the set is : '+setAdd.size());
